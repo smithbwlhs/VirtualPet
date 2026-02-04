@@ -37,6 +37,8 @@ public class VirtualPet {
             this.energy--;
             this.happiness--;
         }
+
+        this.months++;
         if(this.months==12){
             this.months = 0;
             this.years++;
