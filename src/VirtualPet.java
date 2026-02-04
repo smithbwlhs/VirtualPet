@@ -58,6 +58,7 @@ public class VirtualPet {
         return happiness;
     }
 
+
     @Override
     public String toString() {
         String output = name + "'s Information\n" +
